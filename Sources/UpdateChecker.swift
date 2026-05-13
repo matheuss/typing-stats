@@ -30,7 +30,6 @@ class UpdateChecker: NSObject, SPUUpdaterDelegate {
     }
 
     func installUpdate() {
-        // Trigger background update which will auto-install with SUAutomaticallyUpdate=true
         updater.checkForUpdatesInBackground()
     }
 
